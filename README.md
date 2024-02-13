@@ -1,0 +1,2 @@
+# Remove Calamity Summoner Nerf
+The Calamity Mod adds a damage multiplier of 0.75 while you're holding any non-summoner weapon, and nerfs Valhalla Knight armor heavily. These changes make melee/summoner multiclass rather weak, although they're good for balance since Calamity's summon weapons are quite strong. This mod reverts both of those changes, for those who care more about having fun with a summoner multiclass than balance (especially when playing something like Infernum, where you're going to have a difficult time regardless of gear)
