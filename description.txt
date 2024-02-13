@@ -1,0 +1,1 @@
+This mod does exactly what the title says. Removes the penalty for summoner multiclassing, as well as restoring Valhalla Knight armor to its vanilla state.

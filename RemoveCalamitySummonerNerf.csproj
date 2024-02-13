@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>RemoveCalamitySummonerNerf</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CalamityMod">
+      <HintPath>..\..\..\..\..\..\tModUnpacker\CalamityMod\CalamityMod.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="ReLogic">
+      <HintPath>..\..\..\..\Steam\steamapps\common\tModLoader\Libraries\ReLogic\1.0.0\ReLogic.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="TerrariaHooks">
+      <HintPath>..\..\..\..\Steam\steamapps\common\tModLoader\Libraries\TerrariaHooks\0.0.0.0\TerrariaHooks.dll</HintPath><Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
